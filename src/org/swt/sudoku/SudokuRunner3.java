@@ -1,9 +1,6 @@
 package org.swt.sudoku;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
 import java.util.Random;
 
 public class SudokuRunner3 {
@@ -23,6 +20,7 @@ public class SudokuRunner3 {
             }
         }
     }
+    
     private static class Point {
         int x;
         int y;
@@ -44,7 +42,6 @@ public class SudokuRunner3 {
         }
     }
 
-    @SuppressWarnings("unchecked")
     public boolean generateSolutionGrid() {
         Random rand = new Random();
 
